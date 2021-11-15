@@ -1,0 +1,136 @@
+{
+  "jsonapi": {
+    "version": "1.0",
+    "meta": { "links": { "self": { "href": "http:\/\/jsonapi.org\/format\/1.0\/" } } }
+  },
+  "data": [
+    {
+      "type": "node--page",
+      "id": "76a7eb31-24c5-4420-94f8-1fe2279d1bf3",
+      "links": { "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3?resourceVersion=id%3A5" } },
+      "attributes": {
+        "drupal_internal__nid": 1,
+        "drupal_internal__vid": 5,
+        "langcode": "en",
+        "revision_timestamp": "2021-03-02T14:47:24+00:00",
+        "revision_log": null,
+        "status": true,
+        "title": "Home",
+        "created": "2021-02-19T18:36:47+00:00",
+        "changed": "2021-03-02T14:47:24+00:00",
+        "promote": false,
+        "sticky": false,
+        "default_langcode": true,
+        "revision_translation_affected": true,
+        "path": {
+          "alias": "\/home",
+          "pid": 1,
+          "langcode": "en"
+        },
+        "body": {
+          "value": "\u003Cp\u003EThis is the home page\u003C\/p\u003E\r\n",
+          "format": "basic_html",
+          "processed": "\u003Cp\u003EThis is the home page\u003C\/p\u003E",
+          "summary": ""
+        },
+        "field_banner_heading": "Placeholder",
+        "field_banner_text": {
+          "value": "\u003Cp\u003EPlaceholder\u003C\/p\u003E\r\n",
+          "format": "basic_html",
+          "processed": "\u003Cp\u003EPlaceholder\u003C\/p\u003E"
+        },
+        "field_canonical_link_string": null,
+        "field_meta_keyword_string": null,
+        "field_multi_page_mode": "standard",
+        "field_robots_directives": [ "Follow", "Index" ]
+      },
+      "relationships": {
+        "node_type": {
+          "data": {
+            "type": "node_type--node_type",
+            "id": "b2e3ca28-9db1-4df0-8f3c-e1aa8324c4bf"
+          },
+          "links": {
+            "related": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/node_type?resourceVersion=id%3A5" },
+            "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/relationships\/node_type?resourceVersion=id%3A5" }
+          }
+        },
+        "revision_uid": {
+          "data": {
+            "type": "user--user",
+            "id": "225dd6ef-f737-4ea8-85f1-3fa16b4fe81b"
+          },
+          "links": {
+            "related": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/revision_uid?resourceVersion=id%3A5" },
+            "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/relationships\/revision_uid?resourceVersion=id%3A5" }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "f8eb3678-7aac-4c86-bb4e-05d5721e7039"
+          },
+          "links": {
+            "related": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/uid?resourceVersion=id%3A5" },
+            "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/relationships\/uid?resourceVersion=id%3A5" }
+          }
+        },
+        "field_alert_node_references": {
+          "data": [],
+          "links": {
+            "related": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/field_alert_node_references?resourceVersion=id%3A5" },
+            "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/relationships\/field_alert_node_references?resourceVersion=id%3A5" }
+          }
+        },
+        "field_banner_pic": {
+          "data": null,
+          "links": {
+            "related": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/field_banner_pic?resourceVersion=id%3A5" },
+            "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/relationships\/field_banner_pic?resourceVersion=id%3A5" }
+          }
+        },
+        "field_breadcrumb_references": {
+          "data": [],
+          "links": {
+            "related": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/field_breadcrumb_references?resourceVersion=id%3A5" },
+            "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/relationships\/field_breadcrumb_references?resourceVersion=id%3A5" }
+          }
+        },
+        "field_content_node_references": {
+          "data": [],
+          "links": {
+            "related": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/field_content_node_references?resourceVersion=id%3A5" },
+            "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/relationships\/field_content_node_references?resourceVersion=id%3A5" }
+          }
+        },
+        "field_sidebar_menu_references": {
+          "data": [],
+          "links": {
+            "related": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/field_sidebar_menu_references?resourceVersion=id%3A5" },
+            "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/relationships\/field_sidebar_menu_references?resourceVersion=id%3A5" }
+          }
+        },
+        "field_spotlight_node_references": {
+          "data": [],
+          "links": {
+            "related": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/field_spotlight_node_references?resourceVersion=id%3A5" },
+            "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/relationships\/field_spotlight_node_references?resourceVersion=id%3A5" }
+          }
+        },
+        "field_tags": {
+          "data": [
+            {
+              "type": "taxonomy_term--tags",
+              "id": "f7d46b8e-7a03-4e52-957b-a84926babdb8"
+            }
+          ],
+          "links": {
+            "related": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/field_tags?resourceVersion=id%3A5" },
+            "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page\/76a7eb31-24c5-4420-94f8-1fe2279d1bf3\/relationships\/field_tags?resourceVersion=id%3A5" }
+          }
+        }
+      }
+    }
+  ],
+  "links": { "self": { "href": "http:\/\/communication.registrar.gatech.edu\/drupal9\/jsonapi\/node\/page?filter%5Bnid%5D%5Bvalue%5D=1" } }
+}
